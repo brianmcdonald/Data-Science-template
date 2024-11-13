@@ -1,0 +1,36 @@
+---
+title: "Hellow World"
+author: ''
+subtitle: "Hello World"
+title-block-banner: '#0035a0'
+output-file: index
+output-dir: ../reports
+lightbox: true
+embed-resources: true
+format:
+  dashboard:
+    logo: flame.svg
+    include-in-header:
+      text: <link rel="icon" type="image/x-icon" href="inputs/favicon.ico">
+    orientation: columns
+    theme:
+      - IOM.scss
+---
+
+```{python}
+#| tags: [parameters]
+
+parameterA = "IRE"
+parameterB = 0001
+
+```
+
+
+### Column {width="100%"}
+
+
+#### Row {height="100%"}
+
+::: {.card title="Hello world"}
+Hello world
+:::
