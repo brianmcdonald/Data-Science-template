@@ -3,7 +3,11 @@
 .DS_Store
 .pixi
 src/.env
-
+# exclude data by default
+data/external/
+data/interim/
+data/processed/
+data/raw/ 
 
 
 # Byte-compiled / optimized / DLL files
