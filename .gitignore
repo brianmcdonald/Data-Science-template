@@ -3,6 +3,7 @@
 .DS_Store
 .pixi
 src/.env
+*.code-workspace
 # exclude data by default
 data/external/
 data/interim/
