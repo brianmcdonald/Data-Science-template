@@ -5,7 +5,12 @@
 .pixi
 __marimo__/
 src/.env
-
+*.code-workspace
+# exclude data by default
+data/external/
+data/interim/
+data/processed/
+data/raw/ 
 
 
 # Byte-compiled / optimized / DLL files
