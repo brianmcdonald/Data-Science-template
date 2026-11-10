@@ -1,7 +1,9 @@
 
 # Custom ignores
 .DS_Store
+.venv
 .pixi
+__marimo__/
 src/.env
 
 
